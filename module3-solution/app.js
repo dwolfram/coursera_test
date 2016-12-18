@@ -4,7 +4,7 @@
 angular.module('NarrowItDownApp', [])
 .controller('NarrowItDownController', NarrowItDownController )
 .service('MenuSearchService', MenuSearchService)
-.constant('ApiBasePath', "https://dwolfram.github.io/coursera_test/module3-solution/")
+.constant('ApiBasePath', "https://davids-restaurant.herokuapp.com/")
 .directive('foundItems', ShoppingListDirective);
 
 NarrowItDownController.$inject = ['MenuSearchService'];
